@@ -1,0 +1,29 @@
+body {
+  background-color: var(--color-dark);
+  color: #fff;
+  font-family: var(--font-text);
+  font-weight: normal;
+  position: relative;
+  &.lock {
+    overflow: hidden;
+  }
+
+  &.--light {
+    background-color: #fff;
+    color: #121010;
+  }
+}
+
+.container {
+  width: 100%;
+  max-width: 1840px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.--select {
+  background-image: var(--gradient);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
