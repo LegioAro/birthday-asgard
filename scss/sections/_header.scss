@@ -85,7 +85,7 @@
     grid-row-gap: 10px;
     width: 100%;
     max-width: 822px;
-    margin-bottom: 50px;
+    margin-bottom: 100px;
   }
 
   &__item {
@@ -186,6 +186,9 @@
     }
     &__info-texts {
       font-size: 20px;
+    }
+    &__items {
+      margin-bottom: 50px;
     }
     &__item {
       padding: 20px;
